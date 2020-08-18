@@ -6,6 +6,6 @@ namespace StrategyPattern
 {
     public interface ISortStrategy
     {
-        void Sort();
+        void Sort(List<string> items);
     }
 }
